@@ -25,8 +25,8 @@ public class TestServlet extends HttpServlet {
 	private IUserService userService=new UserServiceImpl();
 	
 	/**
-	 * Servlet在WEB容器中是单例的  WEB容器单例
-	 * 在这种情况下，我们应当考虑：多线程情况下的线程并发带来的安全问题.
+	 * Servlet锟斤拷WEB锟斤拷锟斤拷锟斤拷锟角碉拷锟斤拷锟斤拷  WEB锟斤拷锟斤拷锟斤拷锟斤拷
+	 * 锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷拢锟斤拷锟斤拷锟接︼拷锟斤拷锟斤拷牵锟斤拷锟斤拷叱锟斤拷锟斤拷锟铰碉拷锟竭程诧拷锟斤拷锟斤拷锟斤拷锟侥帮拷全锟斤拷锟斤拷.
 	 * */
 	
     public TestServlet() {
@@ -67,6 +67,8 @@ public class TestServlet extends HttpServlet {
 		response.getWriter().write("<br><br><h2>age = "+age+"</h2>");
 	}
 
-	
+	/**
+	 * 123456
+	 */
 
 }
